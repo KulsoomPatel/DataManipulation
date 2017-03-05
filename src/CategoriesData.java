@@ -7,6 +7,7 @@ import java.util.regex.Pattern;
 /**
  * Created by Kulsoom on 04/03/2017.
  */
+
 public class CategoriesData {
 
     public static void main(String[] args) {
@@ -51,17 +52,17 @@ public class CategoriesData {
 
                                 if (theList.isEmpty()) {
 
-                                    theList.add(eachCat[2]);
+                                    theList.add("\"" + eachCat[2] + "\"" );
                                 } else {
 
                                     printWriter.print(theList.toString());
 
                                     theList.clear();
 
-                                    theList.add(eachCat[2]);
+                                    theList.add( "\"" + eachCat[2] + "\"");
                                 }
                             } else {
-                                theList.add(eachCat[2]);
+                                theList.add("\"" + eachCat[2]+ "\"");
                             }
                         }
 
@@ -76,7 +77,7 @@ public class CategoriesData {
 
                         String[] eachCat = line.split(":");
 
-                        printWriter.print("[" + eachCat[2] + "]");
+                        printWriter.print("[\"" + eachCat[2] + "\"]");
                         printWriter.println();
 
                     }
