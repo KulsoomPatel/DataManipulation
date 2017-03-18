@@ -95,7 +95,7 @@
 ["signed"]["childrens", "activities"]
 ["films"]["drama", "psychological", "thriller"]
 ["entertainment", "games_and_quizzes"]["factual"]["lifestyle_and_leisure", "antiques"]
-[]
+
 ["signed"]["childrens", "entertainment_and_comedy", "animation"]
 ["factual", "cars_and_motors", "history"]
 ["factual", "life_stories", "history", "politics"]
@@ -515,7 +515,7 @@
 ["factual"]
 ["factual", "crime_and_justice"]
 ["childrens", "drama"]
-[]
+
 ["factual"]
 ["factual", "politics"]
 ["lifestyle_and_leisure", "antiques"]
@@ -597,7 +597,7 @@
 ["factual", "science_and_nature"]
 ["comedy"]["films"]["drama", "relationships_and_romance"]
 ["news"]["factual", "science_and_nature"]
-[]
+
 ["learning", "pre-school"]["childrens", "entertainment_and_comedy", "animation"]
 ["childrens", "entertainment_and_comedy"]
 ["lifestyle_and_leisure", "health_and_wellbeing"]
@@ -605,7 +605,7 @@
 ["factual", "science_and_nature"]
 ["lifestyle_and_leisure", "food_and_drink"]
 ["learning", "primary"]["childrens", "entertainment_and_comedy"]
-[]
+
 ["childrens", "entertainment_and_comedy"]
 ["signed"]["news"]
 ["learning", "primary"]["childrens", "entertainment_and_comedy"]
@@ -694,7 +694,7 @@
 ["signed"]["news"]
 ["factual"]
 ["lifestyle_and_leisure", "health_and_wellbeing"]
-[]
+
 ["factual", "arts_culture_and_the_media", "history"]
 ["childrens", "entertainment_and_comedy", "animation"]
 ["factual", "science_and_nature"]
@@ -1512,7 +1512,7 @@
 ["entertainment"]
 ["news"]["factual"]
 ["music", "classic_pop_and_rock", "rock_and_indie"]
-[]
+
 ["films"]["drama"]
 ["factual", "politics"]
 ["religion_and_ethics"]["music", "world"]
@@ -2278,7 +2278,7 @@
 ["news"]["factual"]
 ["music", "classic_pop_and_rock", "rock_and_indie"]
 ["music", "classic_pop_and_rock", "rock_and_indie"]
-[]
+
 ["news"]
 ["news"]["factual", "money"]
 ["religion_and_ethics"]
@@ -2535,7 +2535,7 @@
 ["music", "classic_pop_and_rock", "rock_and_indie"]
 ["comedy", "sitcoms"]
 ["childrens", "drama"]
-[]
+
 ["music", "classic_pop_and_rock", "rock_and_indie"]
 ["news"]["factual"]
 ["factual", "money"]
@@ -2546,7 +2546,7 @@
 ["news"]["factual", "money"]
 ["factual", "science_and_nature"]
 ["childrens", "drama"]["drama", "classic_and_period"]
-[]
+
 ["news"]
 ["religion_and_ethics"]
 ["factual", "politics"]["northern_ireland"]
@@ -2728,7 +2728,7 @@
 ["music", "dance_and_electronica", "pop_and_chart"]
 ["entertainment", "games_and_quizzes"]["comedy", "satire"]
 ["music", "pop_and_chart", "hip_hop_rnb_and_dancehall"]
-[]
+
 ["news"]
 ["music", "classic_pop_and_rock"]
 ["news"]
@@ -2820,7 +2820,7 @@
 ["news"]
 ["factual", "science_and_nature"]["scotland"]
 ["music", "dance_and_electronica"]
-[]
+
 ["music", "hip_hop_rnb_and_dancehall"]
 ["news"]["factual", "life_stories"]
 ["music", "classic_pop_and_rock", "pop_and_chart"]
@@ -2830,7 +2830,7 @@
 ["entertainment", "review_shows", "discussion_and_talk_shows"]["music"]
 ["music", "dance_and_electronica", "hip_hop_rnb_and_dancehall", "desi"]
 ["music"]
-[]
+
 ["news"]
 ["music", "world", "folk"]
 ["wales"]["drama", "medical"]
@@ -3094,7 +3094,7 @@
 ["music", "classical"]
 ["music", "classic_pop_and_rock"]
 ["entertainment", "discussion_and_talk_shows"]
-[]
+
 ["music", "jazz_and_blues"]
 ["music", "classic_pop_and_rock", "rock_and_indie", "soul_and_reggae"]
 ["news"]["factual", "life_stories"]
@@ -3132,7 +3132,7 @@
 ["news"]["factual"]
 ["music", "classic_pop_and_rock", "rock_and_indie"]
 ["religion_and_ethics"]["music", "world"]
-[]
+
 ["news"]
 ["religion_and_ethics"]
 ["factual", "arts_culture_and_the_media"]
@@ -3403,7 +3403,7 @@
 ["wales"]["news"]["factual", "politics"]
 ["films"]["drama"]
 ["religion_and_ethics"]
-[]
+
 ["music", "classic_pop_and_rock", "rock_and_indie", "soul_and_reggae"]
 ["music", "classic_pop_and_rock"]
 ["entertainment"]["music"]
@@ -3454,7 +3454,7 @@
 ["entertainment", "games_and_quizzes"]["comedy", "satire"]
 ["news"]["factual"]
 ["music", "classic_pop_and_rock", "rock_and_indie"]
-[]
+
 ["news"]
 ["sport", "rugby_league"]
 ["audio_described"]["signed"]["factual"]
@@ -3646,7 +3646,7 @@
 ["audio_described"]["signed"]["childrens", "entertainment_and_comedy", "factual"]
 ["music", "world"]
 ["factual", "politics"]
-[]
+
 ["signed"]["factual", "science_and_nature"]
 ["audio_described"]["drama", "soaps"]
 ["music", "dance_and_electronica", "rock_and_indie", "hip_hop_rnb_and_dancehall"]
@@ -3663,7 +3663,7 @@
 ["scotland"]["music", "rock_and_indie"]
 ["entertainment"]
 ["news"]
-[]
+
 ["audio_described"]["signed"]["drama", "biographical", "historical"]
 ["entertainment", "review_shows"]["comedy"]["music"]
 ["factual"]
@@ -3968,7 +3968,7 @@
 ["sport"]
 ["music", "classic_pop_and_rock", "rock_and_indie"]
 ["entertainment"]["music"]
-[]
+
 ["wales"]["factual"]
 ["comedy", "satire"]
 ["drama", "thriller", "war_and_disaster"]
@@ -4002,7 +4002,7 @@
 ["music", "dance_and_electronica", "rock_and_indie", "hip_hop_rnb_and_dancehall"]
 ["music", "classic_pop_and_rock"]
 ["factual", "history"]
-[]
+
 ["northern_ireland"]["music", "classic_pop_and_rock", "rock_and_indie"]
 ["music", "classical", "world", "folk"]
 ["music", "hip_hop_rnb_and_dancehall"]
@@ -4050,7 +4050,7 @@
 ["news"]
 ["news"]
 ["religion_and_ethics"]
-[]
+
 ["factual", "science_and_nature"]
 ["entertainment"]["music", "pop_and_chart"]
 ["music", "classical"]
@@ -4175,7 +4175,7 @@
 ["news"]["sport"]
 ["entertainment"]["comedy"]["factual", "life_stories"]
 ["lifestyle_and_leisure", "travel"]
-[]
+
 ["news"]["factual", "families_and_relationships"]["religion_and_ethics"]
 ["drama"]
 ["entertainment", "review_shows"]["factual"]
@@ -4294,7 +4294,7 @@
 ["music"]
 ["music", "soul_and_reggae"]
 ["news"]["factual", "life_stories"]["religion_and_ethics"]
-[]
+
 ["music", "classic_pop_and_rock"]
 ["entertainment", "review_shows", "discussion_and_talk_shows"]["factual", "arts_culture_and_the_media", "life_stories", "history"]["films"]["music"]
 ["news"]
@@ -4328,7 +4328,7 @@
 ["news"]["scotland"]
 ["factual", "arts_culture_and_the_media"]["northern_ireland"]
 ["music", "dance_and_electronica"]
-[]
+
 ["entertainment"]["comedy"]["music", "pop_and_chart", "rock_and_indie"]
 ["music", "desi"]
 ["factual", "politics"]
@@ -4364,7 +4364,7 @@
 ["entertainment", "review_shows"]["sport"]["music"]
 ["music", "classic_pop_and_rock", "rock_and_indie"]
 ["news"]["factual"]
-[]
+
 ["news"]
 ["news"]["factual", "money"]
 ["religion_and_ethics"]["music", "world"]
@@ -4505,7 +4505,7 @@
 ["entertainment", "review_shows"]["factual"]
 ["northern_ireland"]["music", "country"]
 ["news"]["factual", "families_and_relationships"]["religion_and_ethics"]
-[]
+
 ["drama"]
 ["lifestyle_and_leisure", "travel"]
 ["signed"]["learning", "pre-school"]["childrens", "entertainment_and_comedy"]
@@ -4640,7 +4640,7 @@
 ["music", "classic_pop_and_rock"]
 ["news"]
 ["factual", "politics"]["northern_ireland"]
-[]
+
 ["news"]
 ["news"]["factual", "politics"]
 ["news"]["northern_ireland"]
@@ -4715,7 +4715,7 @@
 ["religion_and_ethics"]["music", "world"]
 ["factual", "money"]
 ["news"]
-[]
+
 ["news"]
 ["entertainment"]
 ["entertainment"]["music", "pop_and_chart"]
@@ -4917,7 +4917,7 @@
 ["scotland"]["music"]
 ["music", "classic_pop_and_rock", "pop_and_chart"]
 ["music", "easy_listening_soundtracks_and_musicals"]
-[]
+
 ["news"]["sport"]
 ["entertainment"]
 ["news"]["factual"]["sport"]
@@ -4971,7 +4971,7 @@
 ["northern_ireland"]["music", "classic_pop_and_rock", "rock_and_indie"]
 ["music", "dance_and_electronica", "rock_and_indie"]
 ["music", "dance_and_electronica"]
-[]
+
 ["music", "world", "folk"]
 ["entertainment"]["music"]
 ["news"]["sport"]
@@ -5008,7 +5008,7 @@
 ["factual", "politics"]
 ["factual"]["lifestyle_and_leisure", "travel"]
 ["factual", "life_stories", "families_and_relationships"]
-[]
+
 ["news"]["sport"]
 ["religion_and_ethics"]["music", "world"]
 ["music", "classic_pop_and_rock", "rock_and_indie"]
@@ -5098,7 +5098,7 @@
 ["entertainment", "review_shows"]
 ["news"]
 ["news"]
-[]
+
 ["entertainment"]["music", "pop_and_chart"]
 ["entertainment"]["comedy", "standup"]["music", "classic_pop_and_rock", "pop_and_chart"]
 ["music", "classic_pop_and_rock", "pop_and_chart"]
@@ -5250,7 +5250,7 @@
 ["news"]
 ["drama"]
 ["audio_described"]["signed"]["factual", "life_stories", "politics"]
-[]
+
 ["music", "dance_and_electronica", "hip_hop_rnb_and_dancehall"]
 ["music"]
 ["music", "dance_and_electronica", "hip_hop_rnb_and_dancehall", "desi"]
@@ -5285,11 +5285,11 @@
 ["entertainment"]
 ["music", "dance_and_electronica", "rock_and_indie"]
 ["entertainment", "variety_shows"]["comedy"]
-[]
+
 ["music", "classic_pop_and_rock", "rock_and_indie"]
 ["news"]
 ["religion_and_ethics"]["music", "world"]
-[]
+
 ["news"]["factual"]
 ["religion_and_ethics"]
 ["news"]
@@ -5590,7 +5590,7 @@
 ["music", "classic_pop_and_rock"]
 ["music", "world"]
 ["music", "classic_pop_and_rock", "rock_and_indie", "soul_and_reggae"]
-[]
+
 ["comedy"]["films"]["drama", "musical"]
 ["music", "dance_and_electronica", "hip_hop_rnb_and_dancehall"]
 ["factual"]["music"]
@@ -5621,7 +5621,7 @@
 ["news"]
 ["entertainment", "makeovers"]["factual"]["lifestyle_and_leisure", "beauty_and_style"]
 ["music", "classic_pop_and_rock", "rock_and_indie"]
-[]
+
 ["music", "classic_pop_and_rock", "rock_and_indie"]
 ["entertainment", "games_and_quizzes"]["comedy", "satire"]
 ["news"]["factual"]
@@ -5883,12 +5883,12 @@
 ["news"]["sport"]
 ["comedy", "spoof", "music"]
 ["signed"]["factual"]
-[]
+
 ["scotland"]["music", "country", "folk", "jazz_and_blues", "soul_and_reggae"]
 ["entertainment"]["northern_ireland"]
 ["news"]["northern_ireland"]
 ["music", "classic_pop_and_rock"]
-[]
+
 ["factual", "arts_culture_and_the_media"]["music", "jazz_and_blues"]
 ["music"]
 ["music", "desi"]
@@ -5943,7 +5943,7 @@
 ["news"]["sport"]
 ["news"]
 ["factual", "money"]
-[]
+
 ["news"]
 ["religion_and_ethics"]
 ["entertainment"]["music", "pop_and_chart"]
@@ -6200,14 +6200,14 @@
 ["northern_ireland"]["music", "classic_pop_and_rock", "country", "folk"]
 ["factual", "life_stories"]
 ["scotland"]["music", "country", "folk", "jazz_and_blues", "soul_and_reggae"]
-[]
+
 ["music", "hip_hop_rnb_and_dancehall"]
 ["music"]
 ["music", "desi"]
 ["entertainment"]
 ["news"]
 ["music", "classic_pop_and_rock"]
-[]
+
 ["audio_described"]["factual"]
 ["news"]["sport"]
 ["northern_ireland"]["music", "classic_pop_and_rock", "rock_and_indie"]
@@ -6244,7 +6244,7 @@
 ["news"]
 ["music", "classic_pop_and_rock", "rock_and_indie"]
 ["music", "classic_pop_and_rock", "rock_and_indie"]
-[]
+
 ["news"]
 ["audio_described"]["signed"]["factual", "science_and_nature"]
 ["news"]
@@ -6524,7 +6524,7 @@
 ["music", "classic_pop_and_rock"]
 ["music", "classical", "world", "folk"]
 ["news"]
-[]
+
 ["news"]["factual"]
 ["factual", "money"]
 ["music", "dance_and_electronica", "rock_and_indie", "hip_hop_rnb_and_dancehall"]
@@ -6563,7 +6563,7 @@
 ["comedy", "sitcoms"]
 ["news"]
 ["news"]
-[]
+
 ["news"]["factual", "money"]
 ["factual", "science_and_nature"]
 ["news"]["factual", "money", "consumer"]
@@ -6963,7 +6963,7 @@
 ["childrens", "entertainment_and_comedy", "animation"]
 ["learning", "pre-school"]["childrens", "entertainment_and_comedy"]
 ["learning", "pre-school"]["childrens", "entertainment_and_comedy", "animation"]
-[]
+
 ["learning", "pre-school"]["childrens", "entertainment_and_comedy", "animation"]
 ["childrens", "entertainment_and_comedy", "animation"]
 ["factual", "arts_culture_and_the_media"]["music", "rock_and_indie"]

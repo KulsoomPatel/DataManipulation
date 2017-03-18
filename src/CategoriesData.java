@@ -26,7 +26,6 @@ public class CategoriesData {
 
                 if (line.equals("[]")) {
 
-                    printWriter.print("[]");
                     printWriter.println();
 
                 } else {

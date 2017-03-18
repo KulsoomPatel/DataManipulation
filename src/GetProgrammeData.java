@@ -1,4 +1,5 @@
 import java.io.*;
+import java.util.Arrays;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -21,10 +22,11 @@ public class GetProgrammeData {
             PrintWriter pw2 = new PrintWriter(new BufferedWriter(new FileWriter(series)));
             PrintWriter pw3 = new PrintWriter(new BufferedWriter(new FileWriter(episode)));
 
-            String seriesName = null;
-            String episodeName = null;
-
             while (console.hasNextLine()) {
+
+                String seriesName = "";
+                String episodeName = "";
+
                 String line = console.nextLine();
 
                 String[] splitter = line.split(":");
@@ -36,12 +38,26 @@ public class GetProgrammeData {
                     episodeName = splitter[1];
                     episodeName = removeChars(episodeName);
 
-                } else if (splitter.length >= 3) {
+                } else if (splitter.length == 3) {
                     seriesName = splitter[1];
                     episodeName = splitter[2];
 
                     seriesName = removeChars(seriesName);
                     episodeName = removeChars(episodeName);
+
+                } else if (splitter.length > 3) {
+                    seriesName = splitter[1];
+
+                    int splitterLen = splitter.length;
+
+                    for (int i = 2; i < splitterLen; i++) {
+
+                        episodeName = episodeName + " " + splitter[i];
+                    }
+
+                    seriesName = removeChars(seriesName);
+                    episodeName = removeChars(episodeName);
+
                 }
 
 
@@ -49,12 +65,9 @@ public class GetProgrammeData {
                 pw1.println();
 
                 if (splitter.length == 1) {
-                    pw2.print("N/A");
                     pw2.println();
-                    pw3.print("N/A");
                     pw3.println();
                 } else if (splitter.length == 2) {
-                    pw2.print("N/A");
                     pw2.println();
                     pw3.print(episodeName);
                     pw3.println();
