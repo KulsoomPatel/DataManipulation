@@ -52,11 +52,13 @@ public class ProgrammeJSON {
                 }
 
                 theObject.put("is_clip", new Integer(splitter[8]));
+
+
                 String objectAsString = theObject.toJSONString().replace("\\/", "/");
                 printWriter.write(objectAsString);
                 printWriter.println();
             }
-
+            printWriter.close();
         } catch (IOException e) {
 
         }
