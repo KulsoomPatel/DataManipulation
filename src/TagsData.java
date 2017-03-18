@@ -26,6 +26,7 @@ public class TagsData {
                 Pattern p = Pattern.compile("\\.");
                 Matcher m = p.matcher(line);
                 line = m.replaceAll(",");
+                line = line.replaceAll("_", " ");
 
                 Pattern p2 = Pattern.compile("_");
                 Matcher m2 = p2.matcher(line);

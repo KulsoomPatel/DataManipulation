@@ -1,4 +1,4 @@
-["﻿democracy", "history", "philosophy", "plato", "ancient greece"]
+﻿["﻿democracy", "history", "philosophy", "plato", "ancient greece"]
 ["writer"]
 ["physics", "astronomy", "big bang", "history of science", "distance measures (cosmology)"]
 ["middle ages", "history"]

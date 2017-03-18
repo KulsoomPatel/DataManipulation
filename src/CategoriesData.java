@@ -25,7 +25,7 @@ public class CategoriesData {
                 String line = console.nextLine();
 
                 if (line.equals("[]")) {
-
+                    printWriter.write("[\"\"]");
                     printWriter.println();
 
                 } else {
@@ -35,6 +35,7 @@ public class CategoriesData {
                         Pattern p3 = Pattern.compile("[\\[\\]]+");
                         Matcher m3 = p3.matcher(line);
                         line = m3.replaceAll("");
+                        line = line.replaceAll("_", " ");
 
                         String[] splitter = line.split("\\.");
 
@@ -51,17 +52,17 @@ public class CategoriesData {
 
                                 if (theList.isEmpty()) {
 
-                                    theList.add("\"" + eachCat[2] + "\"" );
+                                    theList.add("\"" + eachCat[2] + "\"");
                                 } else {
 
                                     printWriter.print(theList.toString());
 
                                     theList.clear();
 
-                                    theList.add( "\"" + eachCat[2] + "\"");
+                                    theList.add("\"" + eachCat[2] + "\"");
                                 }
                             } else {
-                                theList.add("\"" + eachCat[2]+ "\"");
+                                theList.add("\"" + eachCat[2] + "\"");
                             }
                         }
 

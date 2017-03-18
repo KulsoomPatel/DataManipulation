@@ -10,17 +10,23 @@ public class ProgrammeJSON {
     public static void main(String[] args) {
 
         File cleanCSV = new File("clean_twoweek_proglist.csv");
+        File tagsData = new File("cleanTags.txt");
+        File cleanCategories = new File("cleanCategories.txt");
 
         File cleanJSON = new File("clean_programme.json");
 
         try {
             Scanner console = new Scanner(cleanCSV);
+            Scanner console2 = new Scanner(tagsData);
+            Scanner console3 = new Scanner(cleanCategories);
 
             PrintWriter printWriter = new PrintWriter(new BufferedWriter(new FileWriter(cleanJSON)));
 
             while (console.hasNextLine()) {
 
                 String line = console.nextLine();
+                String tags = console2.nextLine();
+                String categories = console3.nextLine();
 
                 String[] splitter = line.split(",");
 
@@ -54,7 +60,34 @@ public class ProgrammeJSON {
                 theObject.put("is_clip", new Integer(splitter[8]));
 
 
+                if (!tags.equals("[\"\"]")) {
+                    theObject.put("tags", tags);
+                }
+
+                if (!categories.equals("[\"\"]")) {
+
+                    JSONObject categoriesObject = new JSONObject();
+                    String[] theCategories = categories.split("]");
+
+                    int catLen = theCategories.length;
+
+                    String category = "category";
+
+                    for (int i = 1; i <= catLen; i++) {
+                        if (!theCategories[i - 1].equals("")) {
+
+                            categoriesObject.put(category + i, theCategories[i - 1] + "]");
+                        }
+
+                    }
+
+                    theObject.put("categories", categoriesObject);
+                }
+
                 String objectAsString = theObject.toJSONString().replace("\\/", "/");
+                objectAsString = objectAsString.replace("\\", "");
+                objectAsString = objectAsString.replace("\"[", "[");
+                objectAsString = objectAsString.replace("]\"", "]");
                 printWriter.write(objectAsString);
                 printWriter.println();
             }
